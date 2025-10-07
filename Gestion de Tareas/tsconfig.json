@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    /* === CONFIGURACIÓN BÁSICA === */
+    "target": "ES2020",                // Versión de JS de salida
+    "module": "CommonJS",              // Para que funcione con Node.js
+    "rootDir": "./",                   // Carpeta de entrada (código fuente)
+    "outDir": "./dist",                // Carpeta donde se compila
+
+    /* === SEGURIDAD Y TIPADO === */
+    "strict": true,                    // Reglas estrictas de TypeScript
+    "esModuleInterop": true,           // Permite importar librerías comunes
+
+    /* === CALIDAD DE VIDA === */
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true               // Evita errores con librerías externas
+  },
+
+  /* === ARCHIVOS INCLUIDOS === */
+  "include": ["*.ts"]
+}
